@@ -4,6 +4,7 @@ metadata:
   name: kubernetes-dashboard
   namespace: default
 spec:
+  interval: 30m0s
   chart:
     spec:
       chart: kubernetes-dashboard
