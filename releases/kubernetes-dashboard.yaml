@@ -4,10 +4,9 @@ metadata:
   name: kubernetes-dashboard
   namespace: default
 spec:
-  interval: 30m0s
   chart:
     spec:
-      chart: kubernetes-dasboard
+      chart: kubernetes-dashboard
       sourceRef:
         kind: HelmRepository
         name: kubernetes-dasboard
